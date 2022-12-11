@@ -15,6 +15,7 @@
  * You can only use putchar six times maximum in your code
  * You are not allowed to use any variable of type char
  * All your code should be in the main function
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
