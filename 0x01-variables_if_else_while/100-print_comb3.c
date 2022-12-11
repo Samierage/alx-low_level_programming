@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Description: Write a program that prints all possible
- * different combinations of the dugits
+ * different combinations of the digits
  * Number must be separated by ,, followed by a space
  * The two digits must be different
  * 01 and 10 are considered the same combination of the two digits 0 and 1
