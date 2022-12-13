@@ -2,7 +2,7 @@
 
 /**
  * isalpha - chexks for alphabetic character
- * @c: the character to be checked
+ * @c: The character to be checked
  * Return: 1 if c is a later, 0 otherwise
  */
 int _isalpha(int c)
