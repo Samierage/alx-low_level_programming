@@ -1,13 +1,20 @@
 #include "main.h"
-#include <unistd.h>
 /**
- * _putchar - Write the character c to stdout
- * @c: the character to print
- * is written by Samuel Akaiso
- * Return: Always 1 (Success)
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
  */
 
-int _putchar(char c)
+int main(void)
 {
-	return (1, &c, 1);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
