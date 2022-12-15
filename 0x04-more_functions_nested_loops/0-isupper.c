@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _putchar - checks for code uppercase character
  * @c: The character to be checked
