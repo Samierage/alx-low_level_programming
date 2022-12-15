@@ -5,7 +5,7 @@
  * Return: Always 0.
  */
 
-int _Isupper(int c)
+int _Isupper(int c);
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
