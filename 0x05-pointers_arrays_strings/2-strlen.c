@@ -5,11 +5,13 @@
  * @s: input Holberton.
  * Return: length of string.
  */
+
 int _strlen(char *s)
 {
-	int count = 0;
+	int counter;
 
-	while (*(s + count) != '\n')
-		count++;
-	return (count);
+	for (counter = 0; *s != '\0'; ++s)
+		++counter;
+
+	return (counter);
 }
