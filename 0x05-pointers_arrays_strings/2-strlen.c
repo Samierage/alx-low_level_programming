@@ -2,7 +2,7 @@
 
 /**
  * _strlen - returnd the length of a string.
- * @s: input stringeturn.
+ * @s: input Holberton.
  * Return: length of string.
  */
 int _strlen(char *s)
