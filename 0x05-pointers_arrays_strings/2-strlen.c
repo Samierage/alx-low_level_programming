@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strien - returnd the length of a string.
+ * _strlen - returnd the length of a string.
  * @s: input stringeturn.
  * Return: Length of string.
  */
-int _strien(char *s)
+int _strlen(char *s)
 {
 	int count = 0;
 
