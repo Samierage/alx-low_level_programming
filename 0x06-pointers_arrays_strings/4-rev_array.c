@@ -5,15 +5,15 @@
  * @n: number of elements of array
  * Return: void
  */
-void reverse_array(int *a, int n)
+char *string_toupper(char *s)
 {
-	int i;
-	int t;
+	int i = 0;
 
-	for (i = 0; i < n--; i++)
+	while (s[i] != '\0')
 	{
-		t = a[i];
-		a[i] = a[n];
-		a[n] = t;
+		if (s[i] >= 97 && s[i] <= 122)
+			s[i] = s[i] - 32;
+		i++;
 	}
+	return (s);
 }
