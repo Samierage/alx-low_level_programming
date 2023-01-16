@@ -1,0 +1,1 @@
+Alx C - Structures, typedef
